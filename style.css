@@ -1,0 +1,32 @@
+body {
+ 	background-color: black;
+ 	font-family: futura bold;
+ 	}
+
+ h1 {
+ 	color: white;
+ 	font-family:futura bold;
+ 	text-align: center;
+ }
+ h2 {
+ 	color: white;
+ 	font-family:futura bold;
+ 	text-align: center;
+ }
+ h3 {
+ 	color: white;
+ 	font-family:futura bold;
+ 	text-align: center;
+ }
+
+ p {
+ 	color: #BFBDBF;
+ 	font-family:futura bold;
+ 	text-align: left;
+ 	max-width: 40em;
+ }
+ blockquote {
+ 	border: 70px solid #000000;
+ 	padding: 300px;
+ 	background-color: #6D182D;
+ }
