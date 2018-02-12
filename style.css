@@ -2,7 +2,6 @@ body {
  	background-color: black;
  	font-family: futura bold;
  	}
-
  h1 {
  	color: white;
  	font-family:futura bold;
@@ -29,4 +28,8 @@ body {
  	border: 70px solid #000000;
  	padding: 300px;
  	background-color: #6D182D;
+ }
+ img {
+ 	width:500px;
+ 	height:600px;
  }
