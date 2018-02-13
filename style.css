@@ -32,4 +32,26 @@ body {
  img {
  	width:500px;
  	height:600px;
+ 	left-margin: 700;
  }
+ ul {
+ 	list-style-type: none;
+    border: 1px solid #BFBDBF;
+    background-color: #BFBDBF;
+}
+li a {
+    color: #666;
+}
+li a {
+	list-style-type: none;
+    display: block;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
