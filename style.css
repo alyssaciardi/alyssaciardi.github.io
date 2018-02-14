@@ -82,7 +82,9 @@ body {
  img {
  	width:500px;
  	height:600px;
- 	left-margin: 700;
+ 	float: right;
+	padding: 70px;
+
  }
  ul {
  	list-style-type: none;
