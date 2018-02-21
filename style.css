@@ -5,37 +5,78 @@ body {
  h1 {
  	font-size: 40px;
  	color: white;
- 	font-family:futura bold;
  	text-align: center;
+ 	font-family: 'Monoton', cursive;
  }
  h2 {
  	font-size: 25px;
  	color: white;
- 	font-family:futura bold;
  	text-align: center;
+ 	font-family: 'Monoton', cursive;
  }
  h3 {
  	color: white;
- 	font-family:futura bold;
  	text-align: center;
  }
 
  p {
  	color: #BFBDBF;
- 	font-family:futura bold;
  	text-align: left;
  	max-width: 40em;
+ 	font-family: 'Monoton', cursive;
  }
  blockquote {
- 	border: 70px solid #000000;
+ 	border: 70px solid black;
  	padding: 300px;
  	background-color: #6D182D;
  }
+
+#first #second {
+  width: 60%;
+  height: 50%;
+  background: grey;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.5;
+}
  img {
- 	width:500px;
- 	height:600px;
+ 	width: 41%;
  	float: right;
 	padding: 70px;
+	margin-top: -280px;
+ }
+ .about {
+ 	width: 41%;
+ 	float: left;
+	padding: 70px;
+	margin-top: -100px;
+ }
+ .words {
+ 	width: 75%;
+ 	float: left;
+ 	height: 250px;
+ 	padding: 70px;
+ 	margin: 70px;
+ 	margin-top: 5px;
+ 	font-size: 40px;
+	background-color: #A9A9A9
+ }
+
+ .untappedcities {
+ 	float: left;
+ 	width: 80%;
+ 	height: 150%;
+ 	margin: -300px;
+	margin-top: -5px;
+ }
+ .blastingnews {
+ 	float: right;
+ 	width: 70%;
+ 	height: 150%;
+ 	margin: 100px;
+	margin-top: 0px;
 
  }
  ul {
@@ -43,19 +84,20 @@ body {
     border: 1px solid #BFBDBF;
     background-color: #BFBDBF;
 }
-li a {
-    color: #666;
-}
-li a {
-	list-style-type: none;
-    display: block;
-    color: #ffffff;
-    padding: 8px 16px;
-    text-decoration: none;
+li {
+	display: inline-block; 
+ 	list-style-type: none;
+ 	margin: 70px;
+ 	margin-top: 70px;
+ 	font-size: 18px;
+ 	padding: 0px;
+    font-color: white;
+    float: right;
+    font-size: 20px;
+    font-weight:bold;
+    font-family: 'Monoton', cursive;
 }
 
-/* Change the link color on hover */
-li a:hover {
-    background-color: #555;
-    color: white;
+a:hover {
+     color: white;
 }
