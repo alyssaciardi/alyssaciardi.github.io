@@ -41,43 +41,48 @@ body {
   transform: translate(-50%, -50%);
   opacity: 0.5;
 }
+ .about {
+ 	width: 30%;
+ 	float: left;
+	padding: 70px;
+	height: 525px;
+	background-color:grey;
+	margin: 70px;
+	margin-top: 70px;
+	font-size: 29px;
+ }
  img {
  	width: 41%;
  	float: right;
 	padding: 70px;
-	margin-top: -280px;
- }
- .about {
- 	width: 41%;
- 	float: left;
-	padding: 70px;
-	margin-top: -100px;
- }
+	margin-top: -805px;
+	 }
+
  .words {
- 	width: 75%;
+ 	width: 78%;
  	float: left;
- 	height: 250px;
+ 	height: 200px;
  	padding: 70px;
  	margin: 70px;
- 	margin-top: 5px;
+ 	margin-top: 90px;
  	font-size: 40px;
-	background-color: #A9A9A9
+	background-color: #856F81;
  }
 
  .untappedcities {
  	float: left;
  	width: 80%;
- 	height: 150%;
- 	margin: -300px;
-	margin-top: -5px;
+ 	height: 100%;
+ 	margin: -350px;
+	margin-top: 500px;
  }
  .blastingnews {
  	float: right;
  	width: 70%;
  	height: 150%;
- 	margin: 100px;
-	margin-top: 0px;
-
+ 	margin: -50px;
+ 	margin-right:100px;
+	margin-top: 500px;
  }
  ul {
  	list-style-type: none;
@@ -97,7 +102,6 @@ li {
     font-weight:bold;
     font-family: 'Monoton', cursive;
 }
-
 a:hover {
      color: white;
 }
