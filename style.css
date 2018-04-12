@@ -9,14 +9,14 @@
 
  h1 {
   font-size: 50px;
-  color: white;
+  color: black;
   font-family: 'Poppins', sans-serif;
 }
 h2 {
   font-family: serif;
   margin: 0;
   font-size: 30px;
-  color: white;
+  color: black;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -24,16 +24,7 @@ p {
   line-height: 1.6;
   font-size: 18px;
   font-family: 'IBM Plex Serif', serif;
-  color: white;
-}
-
-.container-fluid {
-  padding: 0;
   color: black;
-}
-
-.grey {
-  background-color: grey;
 }
 
 .black {
@@ -44,4 +35,8 @@ p {
 .row {
   padding: 50px 0px;
   margin-bottom: 0px;
+}
+
+.contact {
+  background-color: #f3e5f5;
 }

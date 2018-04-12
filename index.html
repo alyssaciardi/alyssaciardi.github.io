@@ -4,18 +4,21 @@
     <title> Alyssa's Website </title>
     <link rel="reset" type="text/css" href="reset.css"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"> 
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+            
     <link rel="stylesheet" type="text/css" href="style.css"> 
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
-
+    <script src="script.js"></script>
   </head>
-
   <body>
-
-  <nav>
-    <div class="black nav-wrapper" >
+    <nav class="transparent z-depth-0">
+    <div class="purple lighten-4 nav-wrapper">
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a class="page-scroll" href="#about"> ABOUT </a> </li>
         <li> <a class="page-scroll" href="#words"> WORDS </a></li>
@@ -24,36 +27,33 @@
     </div>
 </div>
   </nav>
-    <div class="container-fluid">
       <!-- Intro row -->
-      <div class="black row">
+      <div class="row">
         <div class= "col m8 offset-m4">
             <h1> ALYSSA CIARDI </h1>
             <h2> Journalist | Designer </h2> 
         </div>
       </div>
-      <!-- end intro row-->
-
+<!-- end intro row-->
+      <div class="parallax-container">
+      <div class="parallax"><img src="https://designdroide.com/imagesOrigin/forrest-and-mountains-illustration.jpg"></div>
+    </div>
   <!-- start about -->
-   <div class= "about">
-        <div class="col m8 offset-m4" id="about"> 
-        <h2>About Me</h2> 
-        
-     <div class="row">
-     <div class="col m5 offset-m7">
-      <div class="card-panel grey">
-        <span class="white-text"> <p> I am a Journalism + Design major and a Global Studies minor at The New School in New York City. I am passionate about finding ways to present captivating narratives in innovative ways.</p>
-        <p> By using my strong drive to learn and collaborating with other digital media professionals, I am seeking out ways to make my work both informative and exciting. </p>
-        </span>
+    <div class="section white" id="about">
+      <div class="row container">
+        <h2 class="header">About me</h2>
+        <p class="grey-text text-darken-3 lighten-3"> I am a Journalism + Design major and a Global Studies minor at The New School in New York City. I am passionate about finding ways to present captivating narratives in innovative ways.</p>
+        <p class="grey-text text-darken-3 lighten-3"> By using my strong drive to learn and collaborating with other digital media professionals, I am seeking out ways to make my work both informative and exciting. </p>
       </div>
     </div>
-  </div>
- </div>
-</div>
- <!-- end about row-->
+   <!-- end about row-->
+    <div class="parallax-container">
+      <div class="parallax"><img src="https://designdroide.com/imagesOrigin/forrest-and-mountains-illustration.jpg"></div>
+    </div>
+
 
       <!-- start grey section -->      
-      <div class="grey">
+      <div class="section white">
         <!-- start untapped cities-->
         <div class="row">
           <div class="col m2 offset-m2">
@@ -99,8 +99,9 @@
       <!-- end grey section -->
 
       <!-- start contact -->
+<div class="contact">
+  <h2 class="header">  Let's Work Together! </h2>
           <div class="row" id="contact">
-<h3> Let's Work Together! </h3>
     <form class="col s12">
       <div class="row">
         <div class="input-field col s6">
